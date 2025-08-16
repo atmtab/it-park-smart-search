@@ -71,6 +71,46 @@
       "status": "lead",
       "focal": "mukhlisa",
       "rating": "B-58"
+    },
+    {
+      "id": 10,
+      "name": "CYBER SECURITY PRO",
+      "sectors": ["cyber_security", "network_security", "custom_sw"],
+      "status": "resident",
+      "focal": "aziz",
+      "rating": "AA-89"
+    },
+    {
+      "id": 11,
+      "name": "AI INNOVATIONS LAB",
+      "sectors": ["ai", "ml", "big_data"],
+      "status": "lead",
+      "focal": "dilfuza",
+      "rating": "BBB-72"
+    },
+    {
+      "id": 12,
+      "name": "MOBILE SOLUTIONS",
+      "sectors": ["mobile_apps", "ios_dev", "android_dev"],
+      "status": "resident",
+      "focal": "javlon",
+      "rating": "BBB-81"
+    },
+    {
+      "id": 13,
+      "name": "BLOCKCHAIN TECH",
+      "sectors": ["blockchain", "crypto", "smart_contracts"],
+      "status": "lead",
+      "focal": "sherzod",
+      "rating": "B-61"
+    },
+    {
+      "id": 14,
+      "name": "CLOUD INFRASTRUCTURE",
+      "sectors": ["cloud_tech", "devops", "microservices"],
+      "status": "resident",
+      "focal": "gulnoza",
+      "rating": "A-87"
     }
   ],
   "sector_mapping": {
@@ -88,13 +128,31 @@
     "sw_dev": "Разработка ПО",
     "transport_modeling": "Транспортное моделирование",
     "info_services": "Информационные услуги",
-    "dispatch_services": "Диспетчерские услуги"
+    "dispatch_services": "Диспетчерские услуги",
+    "cyber_security": "Кибербезопасность",
+    "network_security": "Сетевая безопасность",
+    "ai": "Искусственный интеллект",
+    "ml": "Машинное обучение",
+    "mobile_apps": "Мобильные приложения",
+    "ios_dev": "iOS разработка",
+    "android_dev": "Android разработка",
+    "blockchain": "Блокчейн",
+    "crypto": "Криптовалюты",
+    "smart_contracts": "Смарт-контракты",
+    "cloud_tech": "Облачные технологии",
+    "devops": "DevOps",
+    "microservices": "Микросервисы"
   },
   "focal_mapping": {
     "lazizbek": "Lazizbek Khudaev",
     "rufina": "Rufina Ismailova",
     "sevinch": "Sevinch UBAYDULLAYEVA",
     "fatima": "Fatima Timirova",
-    "mukhlisa": "Mukhlisa Sattarova"
+    "mukhlisa": "Mukhlisa Sattarova",
+    "aziz": "Aziz Karimov",
+    "dilfuza": "Dilfuza Nurullayeva",
+    "javlon": "Javlon Toshev",
+    "sherzod": "Sherzod Yuldashev",
+    "gulnoza": "Gulnoza Rakhimova"
   }
 }

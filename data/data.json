@@ -89,6 +89,56 @@
       "contact": "+998903338090",
       "extra": "Рейтинг устойчивости: B - 58 Средний • Директор: RAXMATULLAYEV SHERUDXON BOXODIR O'G'LI",
       "focal": "Mukhlisa Sattarova"
+    },
+    {
+      "id": 10,
+      "name": "ООО «CYBER SECURITY PRO»",
+      "sector": ["Кибербезопасность", "Сетевая безопасность", "ПО заказное"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 15.01.2024",
+      "contact": "+998901234567",
+      "extra": "Сфера: Банковские услуги, Государственный сектор • Рейтинг устойчивости: AA - 89 Высокий • Директор: KARIMOV AZIZ ULUGBEKOVICH",
+      "focal": "Aziz Karimov"
+    },
+    {
+      "id": 11,
+      "name": "ООО «AI INNOVATIONS LAB»",
+      "sector": ["Искусственный интеллект", "Машинное обучение", "Big Data"],
+      "status": "lead",
+      "region": "Лид • Заявка на рассмотрении",
+      "contact": "+998987654321",
+      "extra": "Сфера: Образование, Здравоохранение • Рейтинг устойчивости: BBB - 72 Средний • Директор: NURULLAYEVA DILFUZA RUSTAMOVNA",
+      "focal": "Dilfuza Nurullayeva"
+    },
+    {
+      "id": 12,
+      "name": "ООО «MOBILE SOLUTIONS»",
+      "sector": ["Мобильные приложения", "iOS разработка", "Android разработка"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 22.03.2024",
+      "contact": "+998955566677",
+      "extra": "Сфера: Электронная коммерция, Логистика • Рейтинг устойчивости: BBB - 81 Средний • Директор: TOSHEV JAVLON ALISHEROVICH",
+      "focal": "Javlon Toshev"
+    },
+    {
+      "id": 13,
+      "name": "ООО «BLOCKCHAIN TECH»",
+      "sector": ["Блокчейн", "Криптовалюты", "Смарт-контракты"],
+      "status": "lead",
+      "region": "Лид • Заявка на рассмотрении",
+      "contact": "+998944433322",
+      "extra": "Сфера: Финансовые технологии, Юридические услуги • Рейтинг устойчивости: B - 61 Средний • Директор: YULDASHEV SHERZOD ZAFAROVICH",
+      "focal": "Sherzod Yuldashev"
+    },
+    {
+      "id": 14,
+      "name": "ООО «CLOUD INFRASTRUCTURE»",
+      "sector": ["Облачные технологии", "DevOps", "Микросервисы"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 08.06.2024",
+      "contact": "+998933322211",
+      "extra": "Сфера: Телекоммуникации, Энергетика • Рейтинг устойчивости: A - 87 Высокий • Директор: RAKHIMOVA GULNOZA AZAMATOVNA",
+      "focal": "Gulnoza Rakhimova"
     }
   ]
 }
