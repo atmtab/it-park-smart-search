@@ -1,0 +1,100 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Sales Doctor Solutions",
+      "sectors": ["erp_sys", "db", "dbms", "custom_sw", "med"],
+      "status": "resident",
+      "focal": "lazizbek",
+      "rating": "BBB-83"
+    },
+    {
+      "id": 2,
+      "name": "BIG DATA SCIENCE",
+      "sectors": ["big_data", "erp_sys"],
+      "status": "resident",
+      "focal": "rufina",
+      "rating": "D-5"
+    },
+    {
+      "id": 3,
+      "name": "MIRICO SYSTEMS",
+      "sectors": ["erp_sys", "db", "dbms", "custom_sw"],
+      "status": "resident",
+      "focal": "sevinch",
+      "rating": "BBB-85"
+    },
+    {
+      "id": 4,
+      "name": "AGILE MEDIA GROUP",
+      "sectors": ["erp_sys", "crm_sys"],
+      "status": "resident",
+      "focal": "fatima",
+      "rating": "AA-92"
+    },
+    {
+      "id": 5,
+      "name": "REALSOFT",
+      "sectors": ["erp_sys", "dms", "custom_sw", "complex_is"],
+      "status": "resident",
+      "focal": "lazizbek",
+      "rating": "B-56"
+    },
+    {
+      "id": 6,
+      "name": "ADCOM BTC",
+      "sectors": ["consulting", "marketing"],
+      "status": "resident",
+      "focal": "mukhlisa",
+      "rating": "B-63"
+    },
+    {
+      "id": 7,
+      "name": "PROMO STAFF SOLUTIONS",
+      "sectors": ["consulting", "marketing"],
+      "status": "resident",
+      "focal": "mukhlisa",
+      "rating": "BBB-77"
+    },
+    {
+      "id": 8,
+      "name": "TRANSPROEKT",
+      "sectors": ["consulting", "sw_dev", "transport_modeling"],
+      "status": "resident",
+      "focal": "mukhlisa",
+      "rating": "B-58"
+    },
+    {
+      "id": 9,
+      "name": "COMPLIANCE SHIELD",
+      "sectors": ["info_services", "dispatch_services"],
+      "status": "lead",
+      "focal": "mukhlisa",
+      "rating": "B-58"
+    }
+  ],
+  "sector_mapping": {
+    "erp_sys": "ERP-системы",
+    "db": "Базы данных",
+    "dbms": "СУБД",
+    "custom_sw": "ПО заказное",
+    "med": "Медицина",
+    "big_data": "Big Data",
+    "crm_sys": "CRM-системы",
+    "dms": "DMS",
+    "complex_is": "ИС комплексные решения",
+    "consulting": "Консалтинг",
+    "marketing": "Маркетинг",
+    "sw_dev": "Разработка ПО",
+    "transport_modeling": "Транспортное моделирование",
+    "info_services": "Информационные услуги",
+    "dispatch_services": "Диспетчерские услуги"
+  },
+  "focal_mapping": {
+    "lazizbek": "Lazizbek Khudaev",
+    "rufina": "Rufina Ismailova",
+    "sevinch": "Sevinch UBAYDULLAYEVA",
+    "fatima": "Fatima Timirova",
+    "mukhlisa": "Mukhlisa Sattarova"
+  }
+}

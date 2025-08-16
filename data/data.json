@@ -1,0 +1,94 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "OOO «Sales Doctor Solutions»",
+      "sector": ["ERP-системы", "Базы данных", "СУБД", "ПО заказное", "Медицина"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 03.12.2019",
+      "contact": "+998958449889",
+      "extra": "Рейтинг устойчивости: BBB - 83 Средний • Директор: SUVONOV OTABEK IRKINOVICH",
+      "focal": "Lazizbek Khudaev"
+    },
+    {
+      "id": 2,
+      "name": "ООО «BIG DATA SCIENCE»",
+      "sector": ["Big Data", "ERP-системы"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 07.11.2019",
+      "contact": "+998909341343",
+      "extra": "Сфера: Финтех и Банки • Рейтинг устойчивости: D - 5 Низкий • Директор: FAZILOV JASUR ABDUXAKIMOVICH",
+      "focal": "Rufina Ismailova"
+    },
+    {
+      "id": 3,
+      "name": "OOO «MIRICO SYSTEMS»",
+      "sector": ["ERP-системы", "Базы данных", "СУБД", "ПО заказное"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 03.12.2019",
+      "contact": "+998900006231",
+      "extra": "Сфера: Финтех и Банки, Бухгалтерия, Бизнес услуги • Рейтинг устойчивости: BBB - 85 Средний • Директор: SABDURAIMOV MIRZIYOD MUXTAROVICH",
+      "focal": "Sevinch UBAYDULLAYEVA"
+    },
+    {
+      "id": 4,
+      "name": "OOO «AGILE MEDIA GROUP»",
+      "sector": ["ERP-системы", "CRM-системы"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 03.12.2019",
+      "contact": "+998909772474",
+      "extra": "Сфера: Сельское хозяйство, Бизнес услуги • Рейтинг устойчивости: AA - 92 Высокий • Директор: STAMPLEVSKAYA LYUDMILA VYACHESLAVОВНА",
+      "focal": "Fatima Timirova"
+    },
+    {
+      "id": 5,
+      "name": "OOO «REALSOFT»",
+      "sector": ["ERP-системы", "DMS", "ПО заказное", "ИС комплексные решения"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 03.12.2019",
+      "contact": "+998712058484",
+      "extra": "Сфера: Юридические услуги, Бизнес услуги • Рейтинг устойчивости: B - 56 Средний • Директор: NASRULLAYEV HIKMATULЛО HABIBULLOYEVICH",
+      "focal": "Lazizbek Khudaev"
+    },
+    {
+      "id": 6,
+      "name": "ООО «ADCOM BTC»",
+      "sector": ["Консалтинг", "Маркетинг"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 31.07.2025",
+      "contact": "+998910189009",
+      "extra": "Рейтинг устойчивости: B - 63 Средний • Директор: YUNUSOV TOLMAS TOXIROVICH",
+      "focal": "Mukhlisa Sattarova"
+    },
+    {
+      "id": 7,
+      "name": "ООО «PROMO STAFF SOLUTIONS»",
+      "sector": ["Консалтинг", "Маркетинг"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 31.07.2025",
+      "contact": "+998909573434",
+      "extra": "Рейтинг устойчивости: BBB - 77 Средний • Директор: TALIPOV ALISHER SABIROVICH",
+      "focal": "Mukhlisa Sattarova"
+    },
+    {
+      "id": 8,
+      "name": "ООО «TRANSPROEKT»",
+      "sector": ["Консалтинг", "Разработка ПО", "Транспортное моделирование"],
+      "status": "resident",
+      "region": "Резидент IT-Park с 31.07.2025",
+      "contact": "+998903450504",
+      "extra": "Рейтинг устойчивости: B - 58 Средний • Директор: BO'TTER CHRISTAN",
+      "focal": "Mukhlisa Sattarova"
+    },
+    {
+      "id": 9,
+      "name": "ООО «COMPLIANCE SHIELD»",
+      "sector": ["Информационные услуги", "Диспетчерские услуги"],
+      "status": "lead",
+      "region": "Лид • Заявка на рассмотрении",
+      "contact": "+998903338090",
+      "extra": "Рейтинг устойчивости: B - 58 Средний • Директор: RAXMATULLAYEV SHERUDXON BOXODIR O'G'LI",
+      "focal": "Mukhlisa Sattarova"
+    }
+  ]
+}
