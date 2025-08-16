@@ -88,8 +88,8 @@
       statusEl.innerHTML = '<span class="status warning">Проверяется...</span>';
       
       try {
-        // Проверяем доступность данных (для GitHub Pages)
-        const response = await fetch('./data-mini.json');
+        // Проверяем доступность данных через API
+        const response = await fetch('/api/companies-mini');
         if (response.ok) {
           statusEl.innerHTML = '<span class="status success">✅ Данные доступны</span>';
           log('Данные доступны', 'success');
@@ -114,8 +114,8 @@
       try {
         log('Начало загрузки данных...', 'info');
         
-        // Загружаем данные напрямую из JSON файлов (для GitHub Pages)
-        const response = await fetch('./data-mini.json');
+        // Загружаем данные через API endpoint
+        const response = await fetch('/api/companies-mini');
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}: ${response.statusText}`);
         }

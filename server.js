@@ -17,6 +17,7 @@ app.get('/api/companies', (req, res) => {
     const companiesData = fs.readFileSync(path.join(__dirname, 'data', 'data.json'), 'utf8');
     res.json(JSON.parse(companiesData));
   } catch (error) {
+    console.error('❌ Ошибка загрузки данных компаний:', error);
     res.status(500).json({ error: 'Ошибка загрузки данных компаний' });
   }
 });
@@ -26,6 +27,7 @@ app.get('/api/companies-mini', (req, res) => {
     const miniData = fs.readFileSync(path.join(__dirname, 'data', 'data-mini.json'), 'utf8');
     res.json(JSON.parse(miniData));
   } catch (error) {
+    console.error('❌ Ошибка загрузки мини-данных:', error);
     res.status(500).json({ error: 'Ошибка загрузки мини-данных' });
   }
 });
@@ -49,6 +51,15 @@ app.post('/api/search', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: 'Ошибка выполнения поиска' });
   }
+});
+
+// Health check endpoint для Render
+app.get('/api/health', (req, res) => {
+  res.json({ 
+    status: 'OK', 
+    timestamp: new Date().toISOString(),
+    message: 'IT Park Smart Search API работает'
+  });
 });
 
 // Test DeepSeek API endpoint
@@ -111,11 +122,18 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+// Serve test API page
+app.get('/test-api', (req, res) => {
+  res.sendFile(path.join(__dirname, 'test-api.html'));
+});
+
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Сервер запущен на http://localhost:${PORT}`);
+  console.log(`🚀 IT Park Smart Search сервер запущен на порту ${PORT}`);
   console.log(`📁 Статические файлы: ${path.join(__dirname, 'public')}`);
   console.log(`🔍 API доступен по адресу: http://localhost:${PORT}/api`);
+  console.log(`🧪 Тест API: http://localhost:${PORT}/test-api`);
+  console.log(`📊 Основное приложение: http://localhost:${PORT}/`);
 });
 
 // Graceful shutdown

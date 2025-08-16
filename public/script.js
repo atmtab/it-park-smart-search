@@ -41,8 +41,8 @@ class SmartSearchApp {
     try {
       console.log('📥 Загрузка данных...');
       
-      // Загружаем данные напрямую из JSON файлов (для GitHub Pages)
-      const fullDataResponse = await fetch('./data.json');
+              // Загружаем данные через API endpoints
+              const fullDataResponse = await fetch('/api/companies');
       if (!fullDataResponse.ok) {
         throw new Error(`HTTP ${fullDataResponse.status}: ${fullDataResponse.statusText}`);
       }
@@ -50,7 +50,7 @@ class SmartSearchApp {
       this.companies = fullData.companies;
       console.log(`✅ Загружено ${this.companies.length} компаний`);
 
-      const miniDataResponse = await fetch('./data-mini.json');
+              const miniDataResponse = await fetch('/api/companies-mini');
       if (!miniDataResponse.ok) {
         throw new Error(`HTTP ${miniDataResponse.status}: ${miniDataResponse.statusText}`);
       }
