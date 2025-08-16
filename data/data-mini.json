@@ -77,7 +77,7 @@
       "name": "CYBER SECURITY PRO",
       "sectors": ["cyber_security", "network_security", "custom_sw"],
       "status": "resident",
-      "focal": "aziz",
+      "focal": "lazizbek",
       "rating": "AA-89"
     },
     {
@@ -85,7 +85,7 @@
       "name": "AI INNOVATIONS LAB",
       "sectors": ["ai", "ml", "big_data"],
       "status": "lead",
-      "focal": "dilfuza",
+      "focal": "rufina",
       "rating": "BBB-72"
     },
     {
@@ -93,7 +93,7 @@
       "name": "MOBILE SOLUTIONS",
       "sectors": ["mobile_apps", "ios_dev", "android_dev"],
       "status": "resident",
-      "focal": "javlon",
+      "focal": "sevinch",
       "rating": "BBB-81"
     },
     {
@@ -101,7 +101,7 @@
       "name": "BLOCKCHAIN TECH",
       "sectors": ["blockchain", "crypto", "smart_contracts"],
       "status": "lead",
-      "focal": "sherzod",
+      "focal": "fatima",
       "rating": "B-61"
     },
     {
@@ -109,7 +109,7 @@
       "name": "CLOUD INFRASTRUCTURE",
       "sectors": ["cloud_tech", "devops", "microservices"],
       "status": "resident",
-      "focal": "gulnoza",
+      "focal": "mukhlisa",
       "rating": "A-87"
     }
   ],
@@ -148,11 +148,6 @@
     "rufina": "Rufina Ismailova",
     "sevinch": "Sevinch UBAYDULLAYEVA",
     "fatima": "Fatima Timirova",
-    "mukhlisa": "Mukhlisa Sattarova",
-    "aziz": "Aziz Karimov",
-    "dilfuza": "Dilfuza Nurullayeva",
-    "javlon": "Javlon Toshev",
-    "sherzod": "Sherzod Yuldashev",
-    "gulnoza": "Gulnoza Rakhimova"
+    "mukhlisa": "Mukhlisa Sattarova"
   }
 }
